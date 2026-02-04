@@ -1,0 +1,19 @@
+cat > .gitignore <<'EOF'
+# local test files
+test.txt
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/.terraform.lock.hcl
+
+# Zip artifacts (build outputs)
+**/*.zip
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+EOF
