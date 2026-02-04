@@ -22,3 +22,12 @@ terraform.exe
 *.vscode/
 .DS_Store
 Thumbs.db
+
+# Terraform lock file
+*.lock.hcl
+
+# Lambda build artifacts
+*.zip
+
+# Temporary / test files
+test.txt
